@@ -21,7 +21,7 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_DATABASE: redbook
-      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: 123456
     volumes:
       - db-data:/var/lib/mysql
     networks:
